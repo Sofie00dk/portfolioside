@@ -58,11 +58,18 @@ header {
 }
 
 #headertekst {
-    font-size: 4em;
+    font-size: 20px;
 }
 
 h1 {
     text-align: center;
+    
+}
+
+p {
+        
+    font-family: sans-serif;
+    line-height: 25px;
 }
 
 .storttal {
@@ -100,7 +107,7 @@ li a:hover { /* og lidt anderledes styling når man hover */
 }
 
 .Forside {
-    font-size: 45px;
+    font-size: 40px;
     display: block;
     text-shadow: 2px 2px #fff;
 }
@@ -131,6 +138,7 @@ TABLET VER.
         
     }
 }
+
 
 /*
 -----------------------
@@ -171,14 +179,12 @@ h1 {
     text-align: center;
 }
 
-    h3 {
-        text-align: center
     
     }
     
     
 .Forside {
-    font-size: 4em;
+    
     display: block;
     text-shadow: 2px 2px #fff;
 }
@@ -215,5 +221,8 @@ li a:hover { /* og lidt anderledes styling når man hover */
 }
 
    
+ p {
         
-    }
+    font-family: sans-serif;
+    line-height: 25px;
+     }

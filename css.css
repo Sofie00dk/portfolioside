@@ -1,4 +1,4 @@
-{box-sizing: border-box;}
+* {box-sizing: border-box;}
 
 body {
     margin: 0;
@@ -120,6 +120,12 @@ body {
         "footer footer footer"
 }
 
+p {
+        
+    font-family: sans-serif;
+    line-height: 25px;
+     }
+
 /*
 -----------------------
 TABLET VER. 
@@ -132,6 +138,11 @@ TABLET VER.
     }
 }
 
+p {
+        
+    font-family: sans-serif;
+    line-height: 25px;
+     }
 /*
 -----------------------
 DESKTOP VER. 

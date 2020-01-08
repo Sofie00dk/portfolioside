@@ -129,11 +129,16 @@ body {
     
     
     
+    
     img {
        height: 90px; 
     }       
     
-
+p {
+        
+    font-family: sans-serif;
+    line-height: 25px;
+     }
 /*
 -----------------------
 TABLET VER. 
@@ -146,6 +151,11 @@ TABLET VER.
     }
 }
 
+p {
+        
+    font-family: sans-serif;
+    line-height: 25px;
+     }
 /*
 -----------------------
 DESKTOP VER. 
@@ -239,3 +249,8 @@ li a:hover { /* og lidt anderledes styling når man hover */
       align-content: center
     }       
     
+p {
+        
+    font-family: sans-serif;
+    line-height: 25px;
+     }

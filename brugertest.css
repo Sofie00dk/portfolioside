@@ -1,0 +1,239 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+header,
+footer {
+    background:#F98CB6;
+    font-size: 10px;
+}
+
+header,
+section,
+footer {
+    padding: 2em;
+}
+
+#tekst1 {background: white;}
+#tekst2 {background: white;}
+#side   {background: white}
+tekst3 {background: white}
+#green {background: white;}
+
+
+/* 
+----------------------------------------
+GRID STARTER HER
+----------------------------------------
+*/
+
+
+header {grid-area: header}
+#tekst1  {grid-area: s1}
+#tekst2 {grid-area: s2}
+#green {grid-area: s3}
+footer {grid-area: footer}
+
+
+/*
+-----------------------
+MOBILE VER. 
+-----------------------
+*/
+
+body { /* først lidt generelt */
+    background-color: white; /* baggrundsfarve */
+    font-family:sans-serif; /* skrift for hele siden */
+    margin: 0; /* ingen margen */
+    padding: 0; /* ingen padding */
+}
+
+header {
+    background-color: #F98CB6; /* hovedet skal være en anden farve */
+    margin: 0.5em 0px; /* første er top og bund, anden er sider */
+    text-align: center;
+}
+
+#headertekst {
+    font-size: 4em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.storttal {
+    font-size: 10em;
+    display: block;
+}
+
+/* så kommer vi til styling af menuen */
+
+ul {
+    list-style-type: none; /* vi fjerner symboler for hvert punkt */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* så evt. længere tekst ikke ryger ud af boksen */
+    background-color: #F98CB6; 
+}
+
+li {
+    float: left; /* hvert element skal flyde til venstre */
+    text-align: center;
+    
+}
+
+li a {
+    display: block; /* elementet skal opføre sig som en blok */
+    width: 8em; /* bredde */
+    color: #fff;
+    padding: 0.5em 0.1em; /* forskellig padding på vandrette og lodrette flader */
+    text-decoration: none; /* væk med understregning */
+}
+
+li a:hover { /* og lidt anderledes styling når man hover */
+    background-color: #F98CB6;
+    color: #F98CB6;
+}
+
+.Forside {
+    font-size: 45px;
+    display: block;
+    text-shadow: 2px 2px #fff;
+}
+
+
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1em 1fr 1em;
+    grid-template-areas: 
+        "header header header"
+        ". s1 ."
+        ". s2 ."
+        ". aside ."
+        ". s3 ."
+        "footer footer footer"
+}
+
+
+  p {
+        
+    font-family: sans-serif;
+    line-height: 25px;
+    }    
+    
+   
+ 
+    
+/*
+-----------------------
+TABLET VER. 
+-----------------------
+*/
+@media only screen and (min-width: 450px) {
+    body {
+        grid-template-columns: 1fr 400px 1fr;
+        
+    }
+}
+
+p {
+        
+    font-family: sans-serif;
+    line-height: 25px;
+     }
+
+/*
+-----------------------
+DESKTOP VER. 
+-----------------------
+*/
+@media only screen and (min-width: 1000px) {
+    body {
+    grid-template-columns: 1fr 400px 400px 1fr;
+    grid-template-areas: 
+        "header header header header"
+        ". s1 s1 ."
+        ". s2 s2 ."
+        ". s2 s2 ."
+        ". s3 s3 ."
+        "footer footer footer footer"
+    }
+
+    header 
+     body { /* først lidt generelt */
+    background-color: #FFCC00; /* baggrundsfarve */
+    font-family:sans-serif; /* skrift for hele siden */
+    margin: 0; /* ingen margen */
+    padding: 0; /* ingen padding */
+}
+
+header {
+    background-color: #F98CB6; /* hovedet skal være en anden farve */
+    margin: 0.5em 0px; /* første er top og bund, anden er sider */
+    text-align: center;
+}
+
+#headertekst {
+    font-size: 4em;
+}
+
+h1 {
+    text-align: center;
+}
+
+    h3 {
+        text-align: center
+    
+    }
+    
+    
+.Forside {
+    font-size: 4em;
+    display: block;
+    text-shadow: 2px 2px #fff; /* skyggen til overskrift*/
+}
+
+/* Styling af menuen */
+
+ul {
+    list-style-type: none; /* vi fjerner symboler for hvert punkt */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* så evt. længere tekst ikke ryger ud af boksen */
+    background-color: #F98CB6; 
+}
+
+li {
+    float: left; /* hvert element skal flyde til venstre */
+    text-align: center;
+    
+}
+
+li a {
+    display: block; /* elementet skal opføre sig som en blok */
+    width: 8em; /* bredde */
+    color: black;
+    padding: 0.5em 0.1em; /* forskellig padding på vandrette og lodrette flader */
+    text-decoration: none; /* væk med understregning */
+    font-size: 20px;
+    
+}
+
+li a:hover { /* og lidt anderledes styling når man hover */
+    background-color: #ccc;
+    color: #000;
+}
+
+    
+    
+    p {
+        
+    font-family: sans-serif;
+    line-height: 25px;
+    }  

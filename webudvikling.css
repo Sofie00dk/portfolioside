@@ -18,10 +18,10 @@ footer {
     padding: 2em;
 }
 
-#tekst1 {background: black;}
-#tekst2 {background: red;}
-#side   {background: blue}
-tekst3 {background: green}
+#tekst1 {background: white;}
+#tekst2 {background: white;}
+#side   {background: white;}
+tekst3 {background: white;}
 #green {background: white;}
 
 
@@ -34,7 +34,6 @@ GRID STARTER HER
 
 header {grid-area: header}
 #tekst1  {grid-area: s1}
-#side   {grid-area: s}
 #tekst2 {grid-area: s2}
 tekst3 {grid-area: aside}
 #green {grid-area: s3}
@@ -64,13 +63,11 @@ header {
     font-size: 4em;
 }
 
-h1 {
-    text-align: center;
-}
+p {
+        
+    font-family: sans-serif;
+    line-height: 25px;
 
-.storttal {
-    font-size: 10em;
-    display: block;
 }
 
 /* så kommer vi til styling af menuen */
@@ -133,7 +130,11 @@ body {
        height: 90px; 
     }       
     
-
+p {
+        
+    font-family: sans-serif;
+    line-height: 25px;
+     }
 /*
 -----------------------
 TABLET VER. 
@@ -146,6 +147,11 @@ TABLET VER.
     }
 }
 
+p {
+        
+    font-family: sans-serif;
+    line-height: 25px;
+     }
 /*
 -----------------------
 DESKTOP VER. 
@@ -185,10 +191,7 @@ h1 {
     text-align: center;
 }
 
-    h3 {
-        text-align: center
-    
-    }
+   
     
     
 .Forside {
@@ -230,6 +233,7 @@ li a:hover { /* og lidt anderledes styling når man hover */
 
     h3 {
         font-size: 30px;
+        text-align: center;
     }
     
     
@@ -239,3 +243,8 @@ li a:hover { /* og lidt anderledes styling når man hover */
       align-content: center
     }       
     
+p {
+        
+    font-family: sans-serif;
+    line-height: 25px;
+     }

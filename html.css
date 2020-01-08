@@ -65,6 +65,12 @@ h1 {
     text-align: center;
 }
 
+p { /* grund teskst størrelse */
+        
+    font-family: sans-serif;
+    line-height: 25px;
+    }  
+
 .storttal {
     font-size: 10em;
     display: block;
@@ -105,7 +111,10 @@ li a:hover { /* og lidt anderledes styling når man hover */
     text-shadow: 2px 2px #fff;
 }
 
-
+img {
+    
+        height: 300px;
+    }
 }
 
 body {
@@ -132,6 +141,16 @@ TABLET VER.
     }
 }
 
+p { /* grund teskst størrelse */
+        
+    font-family: sans-serif;
+    line-height: 25px;
+     }
+
+img { /* billede størrelse */
+    
+        height: 300px;
+    }
 /*
 -----------------------
 DESKTOP VER. 
@@ -214,10 +233,13 @@ li a:hover { /* og lidt anderledes styling når man hover */
     color: #000;
 }
 
-    p {
+    p { /* grund teskst størrelse */
         
     font-family: sans-serif;
     line-height: 25px;
     }  
         
+    img { /* billede størrelse */
     
+        height: 300px;
+    }
